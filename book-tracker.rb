@@ -39,7 +39,6 @@ class BookTracker
   def all_books
     @books.each do |book|
       puts "
-      Book #{book[:id]}:
       Title: #{book[:title]}
       Author: #{book[:author]}
       Edition: #{book[:edition]}
